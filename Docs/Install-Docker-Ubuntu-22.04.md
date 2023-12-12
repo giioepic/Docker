@@ -38,6 +38,9 @@ sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
+```
+sudo yum install *.rpm -y
+```
 # Add user to docker group
 ```
 sudo usermod -aG docker $USER
