@@ -47,9 +47,9 @@ sudo usermod -aG docker $USER
 ```
 # Enable docker and check docker version
 ```
+sudo systemctl start docker
 sudo systemctl enable docker
 sudo systemctl status docker --no-pager
-sudo systemctl start docker
 sudo chmod 666 /var/run/docker.sock
 docker version
 ```
